@@ -87,26 +87,6 @@ Hyperparameters tuned using **Keras Tuner** to optimize validation loss:
 - Pillow (for image processing)
 - Keras Tuner
 
-## How to Run
-1. Clone the repository:
-   ```bash:disable-run
-   git clone https://github.com/your-username/image-caption-generator.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Prepare the dataset:
-   - Place the 8,090 images and `captions.txt` in the `data/` directory.
-4. Run preprocessing and training:
-   ```bash
-   python train.py
-   ```
-5. Generate captions for new images:
-   ```bash
-   python predict.py --image path/to/image.jpg
-   ```
-
 ## Results
 - The model generates coherent and contextually relevant captions.
 - BLEU scores indicate strong alignment with human-written captions.
